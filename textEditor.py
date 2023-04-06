@@ -1,29 +1,7 @@
 from tkinter import *
 from tkinter.filedialog import *
 
-# root = Tk()
-# root.title("Text Editor")
-
-# root.geometry('200x200')
-
-# text = Text(root, width=200, height=200)
-# text.pack()
-
-# root.mainloop()
-
 filename = None
-
-# def newFile():
-#     global filename
-#     filename = "Untitled"
-#     text.delete(0.0, END)
-
-# def saveFile():
-#     global filename
-#     t = text.get(0.0, END)
-#     f = open(filename, 'w')
-#     f.write(t)
-#     f.close()
 
 def saveAs():
     f = asksaveasfile(mode='w', defaultextension='.txt')
